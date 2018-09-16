@@ -3,15 +3,17 @@
 <html lang="en">
 
 <head>
-	<!-- Required meta tags -->
+
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+	<title>Widget</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&amp;subset=latin-ext" rel="stylesheet">
+
 	<link rel="stylesheet" href="LatoLatin/latolatinfonts.css">
 	<link rel="stylesheet" href="bootstrap-4/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
-	<title>Widget</title>
+
 </head>
 
 
@@ -27,12 +29,13 @@
 				<div class="user row">
 					<div class="user_container w-100 ">
 						<div class="photo_change d-flex align-items-center justify-content-between ">
-							<img src="assets/arrow%20left.png" alt="left arrow icon" class="arrow">
+							<a href=""><i class="icon-arrow-left arrow"></i></a>
 							<div class="photo_container d-flex justify-content-center align-items-center ">
-								<div class="photo rounded-circle">
+								<div class="photo_c2">
+									<img class="photo" src="assets/photo1.png" alt="portrait">
 								</div>
 							</div>
-							<img src="assets/arrow%20right.png" alt="right arrow icon" class="arrow">
+							<a href=""><i class="icon-arrow-right arrow"></i></a>
 						</div>
 						<h1 class="text-center"><span id="name"></span> <span id="lastname"></span></h1>
 						<h2 class="text-center pt-2"><span id="company"></span></h2>
@@ -53,12 +56,12 @@
 						</div>
 						<div class="icon d-flex flex-column justify-content-center align-items-center">
 							<i class="icon-camera"></i>
-							<h3 class=" big">6529</h3>
+							<h3 class="bigger-font">6529</h3>
 							<h4 class="font-weight-light text-uppercase mb-0">photos</h4>
 						</div>
 						<div class="icon d-flex flex-column justify-content-center align-items-center">
 							<i class="icon-like pink-circle"></i>
-							<h3 class=" big">79</h3>
+							<h3 class="bigger-font">79</h3>
 							<h4 class="font-weight-light text-uppercase mb-0">likes</h4>
 						</div>
 

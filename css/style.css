@@ -13,8 +13,8 @@ body {
 }
 
 .user_container {
-	padding-top: 170px;
-	padding-bottom: 140px;
+	padding-top: 169px;
+	padding-bottom: 139px;
 }
 
 .photo_container {
@@ -24,12 +24,19 @@ body {
 	border: 10px solid rgba(255, 255, 255, 0.2)
 }
 
-.photo {
+img {
+	transform: scale(0.55);
+	position: absolute;
+	top: -60px;
+	right: -68px;
+}
+
+.photo_c2 {
+	position: relative;
 	width: 105px;
 	height: 105px;
-	background-image: url(../assets/photo1.png);
-	background-position: 118px -3px;
-	background-size: 127%;
+	border-radius: 50%;
+	overflow: hidden;
 }
 
 .user h1 {
@@ -39,7 +46,7 @@ body {
 }
 
 .user h2 {
-	font-family: 'LatoLatin-Light', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-size: 13px;
 	font-weight: lighter;
 	margin-bottom: 0px;
@@ -56,7 +63,7 @@ body {
 	flex-basis: 62%;
 }
 
-i {
+.icons i {
 	font-size: 24px;
 	padding: 12px;
 	border-radius: 50%;
@@ -100,12 +107,13 @@ i {
 
 .icon h4 {
 	font-size: 8px;
-	font-family: 'LatoLatin-Light', sans-serif;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
 	padding-top: 4px;
 	margin-bottom: -4px;
 }
 
-h3.big {
+h3.bigger-font {
 	font-size: 20px;
 	margin-bottom: 0px;
 	padding-top: 8px;
@@ -113,4 +121,7 @@ h3.big {
 
 .arrow {
 	padding: 41px;
+	font-size: 24px;
+	font-weight: bold;
+	color: rgba(255, 255, 255, 0.3)
 }
